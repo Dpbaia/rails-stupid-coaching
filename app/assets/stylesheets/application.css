@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+   font-family: Helvetica;
+ }
+
+
+ #answer {
+   background-color: lightyellow;
+   box-shadow: -10px 0px lightgray;
+ }
+
+ #question {
+   box-shadow: -10px 0px lightgray;
+   font-weight: lighter;
+ }
+
+ #askform {
+  padding: 2em;
+  margin-right: 0px;
+  box-shadow: 2px 2px 3px grey;
+  width:60%;
+ }
+
+ #askbutton{
+   background-color: royalblue;
+   margin-left: 0px;
+   padding: 2em;
+   font-weight: bold;
+   color: white;
+   border-radius: 0em 1em 1em 0em;
+   box-shadow: 2px 2px 3px grey;
+ }
+
+ #askbutton:hover {
+   background-color: slateblue;
+   cursor: grab;
+ }
