@@ -16,8 +16,24 @@
 
  body {
    font-family: Helvetica;
+   margin-left: 2em;
  }
 
+ #link {
+   text-align:center;
+ }
+
+ #link > a {
+   text-decoration: none;
+   color: blue;
+ }
+
+
+
+ #link > a:visited {
+   text-decoration: none;
+   color: lightseagreen;
+ }
 
  #answer {
    background-color: lightyellow;
@@ -32,6 +48,7 @@
  #askform {
   padding: 2em;
   margin-right: 0px;
+  border-right: 0px;
   box-shadow: 2px 2px 3px grey;
   width:60%;
  }
@@ -39,11 +56,13 @@
  #askbutton{
    background-color: royalblue;
    margin-left: 0px;
+   border-left: 0px;
    padding: 2em;
    font-weight: bold;
    color: white;
    border-radius: 0em 1em 1em 0em;
    box-shadow: 2px 2px 3px grey;
+   position: absolute;
  }
 
  #askbutton:hover {
